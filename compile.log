@@ -1,0 +1,27 @@
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+Start time: 05:05:25 on Nov 14,2024
+vlog "+incdir+/home/mustafa/UVM/uvm_1.2/uvm-1.2/src/" -sv -mfcu -work /home/mustafa/Documents/uvm_training/verif/cuboid_1/script//work "+define+VSIM" -timescale=1ns/100fs "+incdir+/home/mustafa/Documents/uvm_training//verif/cuboid_1/uvm_tb/sequence_item" "+incdir+/home/mustafa/Documents/uvm_training//verif/cuboid_1/uvm_tb/sequence" "+incdir+/home/mustafa/Documents/uvm_training//verif/cuboid_1/uvm_tb/config" "+incdir+/home/mustafa/Documents/uvm_training//verif/cuboid_1/uvm_tb/common" "+incdir+/home/mustafa/Documents/uvm_training//verif/cuboid_1/uvm_tb/interface" "+incdir+/home/mustafa/Documents/uvm_training//verif/cuboid_1/uvm_tb/agent" "+incdir+/home/mustafa/Documents/uvm_training//verif/cuboid_1/uvm_tb/scoreboard" "+incdir+/home/mustafa/Documents/uvm_training//verif/cuboid_1/uvm_tb/env" "+incdir+/home/mustafa/Documents/uvm_training//verif/cuboid_1/uvm_tb" "+incdir+/home/mustafa/Documents/uvm_training/verif/cuboid_1/test/short_test" /home/mustafa/Documents/uvm_training//design/cuboid_2/cuboid_prcr.sv /home/mustafa/Documents/uvm_training//verif/cuboid_1/uvm_tb/interface/cuboid_inp_intf.sv /home/mustafa/Documents/uvm_training//verif/cuboid_1/uvm_tb/interface/cuboid_out_intf.sv /home/mustafa/Documents/uvm_training//verif/cuboid_1/uvm_tb/interface/new_cuboid_inp_intf.sv /home/mustafa/Documents/uvm_training//verif/cuboid_1/uvm_tb/interface/new_cuboid_out_intf.sv /home/mustafa/UVM/uvm_1.2/uvm-1.2/src/uvm_pkg.sv /home/mustafa/Documents/uvm_training//verif/cuboid_1/uvm_tb/package/cuboid_pkg.sv /home/mustafa/Documents/uvm_training//verif/cuboid_1/vlib/tb_cuboid_prcr.sv -l /home/mustafa/Documents/uvm_training/verif/cuboid_1/script//compile.log 
+-- Compiling module cuboid_prcr
+-- Compiling interface cuboid_inp_intf
+-- Compiling interface cuboid_out_intf
+-- Compiling interface new_cuboid_inp_intf
+-- Compiling interface new_cuboid_out_intf
+-- Compiling package uvm_pkg
+** Warning: /home/mustafa/UVM/uvm_1.2/uvm-1.2/src//seq/uvm_sequence_base.svh(1333): (vlog-2186) SystemVerilog testbench feature
+(randomization, coverage or assertion) detected in the design.
+These features are only supported in Questasim.
+** Warning: /home/mustafa/UVM/uvm_1.2/uvm-1.2/src//reg/uvm_mem_mam.svh(768): (vlog-2186) SystemVerilog testbench feature
+(randomization, coverage or assertion) detected in the design.
+These features are only supported in Questasim.
+** Warning: /home/mustafa/UVM/uvm_1.2/uvm-1.2/src//seq/uvm_sequence_library.svh(777): (vlog-2186) SystemVerilog testbench feature
+(randomization, coverage or assertion) detected in the design.
+These features are only supported in Questasim.
+-- Compiling package cuboid_pkg
+-- Importing package uvm_pkg
+-- Compiling module tb_cuboid_prcr
+-- Importing package cuboid_pkg
+
+Top level modules:
+	tb_cuboid_prcr
+End time: 05:05:28 on Nov 14,2024, Elapsed time: 0:00:03
+Errors: 0, Warnings: 3
