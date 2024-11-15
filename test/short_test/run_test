@@ -1,0 +1,12 @@
+#!/bin/sh                              
+#Test run script    
+                  
+make run_sim                       \
+OPT="+UVM_VERBOSITY=UVM_MEDIUM     \
++inp_num_cboids=20               \
++watchdog_timer=21000000                  \
++min=1                  \
++max=100                  \
+"                                  \
+GUI=0         
+                   
